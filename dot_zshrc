@@ -216,7 +216,7 @@ export EDITOR=nvim
 # Initialize Starship Prompt
 ###############################################################################
 eval "$(starship init zsh)"
-export STARSHIP_CONFIG=~/.config/starship/starship.toml
+export STARSHIP_CONFIG=~/.config/starship.toml
 
 ##############################################################################
 # Initialize Taskfile Autocompletion
