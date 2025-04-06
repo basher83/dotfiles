@@ -1,0 +1,21 @@
+# Enable syntax highlighting
+set linenumbers
+set constantshow
+set mouse
+set tabsize 4
+set tabstospaces
+set softwrap
+set multibuffer
+
+# Enable smooth scrolling
+#set smooth
+
+# Show cursor position
+set statuscolor brightwhite,blue
+set titlecolor brightwhite,blue
+set numbercolor cyan
+set keycolor cyan
+set functioncolor green
+
+# Include all syntax highlighting definitions
+include "/usr/share/nano/*.nanorc"
