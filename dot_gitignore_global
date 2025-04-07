@@ -1,0 +1,48 @@
+# --- OS-specific ---
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.config/.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+core
+.nfs*
+nohup.out
+*.pid
+
+# --- Editor and IDEs ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# --- Temp, backup, and logs ---
+*~
+*.swp
+*.swo
+*.log
+
+# --- Compiled files & caches ---
+*.pyc
+__pycache__/
+
+# --- Dependency directories ---
+# node_modules/
+# bower_components/
+
+# --- Environment-specific ---
+.env
+.venv/
+env/
+
+# --- Sensitive files ---
+id_rsa
+id_rsa.pub
+*.pem
