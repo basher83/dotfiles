@@ -1,0 +1,30 @@
+[user]
+    name = Brent
+    email = crashoverride6545@gmail.com
+[core]
+    editor = nvim
+    autocrlf = input
+    pager = less -FX
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit -m
+    lg = log --oneline --graph --decorate --all
+
+[push]
+    default = simple
+
+[init]
+    defaultBranch = main
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    tool = nvimdiff
+
+[credential]
+    helper = store
+
