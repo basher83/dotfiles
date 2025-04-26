@@ -1,4 +1,3 @@
-
 # --- Automation  ---
 # -- Terraform --
 alias tf="terraform"
@@ -9,9 +8,12 @@ alias tfa="tf apply"
 alias tfd="tf destroy"
 alias tff="tf fmt"
 
-alias a="ansible"
-alias ap="ansible-playbook"
-alias p="packer"
+alias an="ansible"
+alias anp="ansible-playbook"
+alias anv="ansible-vault"
+alias anve="ansible-vault encrypt"
+alias ande="ansible-vault decrypt"
+alias pa="packer"
 
 # --- ls replacement eza  ---
 alias ls="eza --icons --group-directories-first"
@@ -33,10 +35,7 @@ alias lzg="lazygit"
 alias nv="nvim"
 
 # --- Directory traversal  ---
-alias cd="z"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-
-
